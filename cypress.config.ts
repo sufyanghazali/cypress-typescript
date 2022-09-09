@@ -5,5 +5,7 @@ export default defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
+    baseUrl:
+      "http://jupiterprime-react-prod.s3-website.us-east-2.amazonaws.com/",
   },
 });
